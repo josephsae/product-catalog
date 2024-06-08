@@ -5,10 +5,9 @@
     "version": "1.0.0",
     "description": "API documentation for Product API"
   },
-  "servers": [
+  "security": [
     {
-      "url": "http://localhost:3000",
-      "description": "Local server"
+      "BasicAuth": []
     }
   ],
   "paths": {
@@ -183,6 +182,12 @@
             "type": "number"
           }
         }
+      }
+    },
+    "securitySchemes": {
+      "BasicAuth": {
+        "type": "http",
+        "scheme": "basic"
       }
     }
   }
