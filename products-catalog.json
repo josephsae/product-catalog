@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "title": "Samsung Galaxy S21",
+    "price": 2200000,
+    "description": "El Samsung Galaxy S21 presenta una pantalla AMOLED de 6.2 pulgadas y una potente cámara trasera triple de 64 megapíxeles, ofreciendo colores vivos y detalles nítidos en las imágenes. Es una opción ideal para aquellos que buscan un smartphone con una excelente calidad de visualización y fotografía.",
+    "image": "https://i.ibb.co/yf7pMpT/samsung-s21.webp",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "iPhone 12",
+    "price": 2300000,
+    "description": "El iPhone 12 de Apple se distingue por su pantalla Super Retina XDR de 6.1 pulgadas y el formidable chip A14 Bionic. Esta combinación ofrece una experiencia visual extraordinaria, con colores vibrantes y detalles nítidos. Además, el potente rendimiento del chip A14 Bionic garantiza un funcionamiento fluido y una eficiencia energética notable, brindando una experiencia de usuario excepcional en todas las tareas, desde la navegación web hasta los juegos más exigentes.",
+    "image": "https://i.ibb.co/9nvKNSB/iphone-12.webp",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "title": "Xiaomi Mi 11",
+    "price": 1200000,
+    "description": "El Xiaomi Mi 11 impresiona con su amplia pantalla AMOLED de 6.81 pulgadas y una cámara principal de 108MP. Esta combinación proporciona una experiencia visual inmersiva y la capacidad de capturar imágenes sorprendentemente detalladas y nítidas. Con su pantalla expansiva y su potente capacidad fotográfica, el Xiaomi Mi 11 es una excelente opción para aquellos que buscan un smartphone con características avanzadas tanto en visualización como en fotografía.",
+    "image": "https://i.ibb.co/jLx8p3b/xiaomi-mi-11.webp",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "title": "OnePlus 9",
+    "price": 2700000,
+    "description": "El OnePlus 9 ofrece una experiencia visual envolvente con su pantalla Fluid AMOLED de 6.55 pulgadas, que proporciona colores vibrantes y contrastes profundos. Además, su cámara principal, desarrollada en colaboración con Hasselblad y con una resolución de 48MP, garantiza la captura de imágenes de alta calidad con un nivel excepcional de detalle y claridad. Esta combinación de una pantalla impresionante y una cámara potente hace del OnePlus 9 una opción atractiva para aquellos que buscan un smartphone que ofrezca tanto una excelente calidad de visualización como capacidades fotográficas de alto nivel.",
+    "image": "https://i.ibb.co/wszh6FC/oneplus-9.webp",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "title": "Google Pixel 5",
+    "price": 2300000,
+    "description": "El Google Pixel 5 presenta una pantalla OLED de 6.0 pulgadas que ofrece colores vivos y negros profundos, brindando una experiencia visual inmersiva. Además, su cámara principal de 16MP, respaldada por el avanzado software de Google, garantiza la captura de imágenes de alta calidad con detalles nítidos y colores precisos. Esta combinación de una pantalla impresionante y una cámara respaldada por la experiencia en software de Google hace del Pixel 5 una opción atractiva para aquellos que valoran tanto la calidad de visualización como la excelencia fotográfica en un smartphone.",
+    "image": "https://i.ibb.co/TDGgy7j/google-pixel-5.webp",
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "title": "Huawei P40 Pro",
+    "price": 3000000,
+    "description": "El Huawei P40 Pro presenta una impresionante pantalla OLED de 6.58 pulgadas, que ofrece colores vibrantes y un alto contraste para una experiencia visual inmersiva. Además, su cámara cuádruple de 50MP brinda una versatilidad excepcional para la fotografía, permitiendo capturar imágenes detalladas y vívidas en una variedad de escenarios. Con estas características destacadas, el Huawei P40 Pro se posiciona como una opción atractiva para aquellos que buscan un smartphone con una excelente calidad de visualización y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/6NZ610R/huawei-p40-pro.webp",
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "title": "LG Velvet",
+    "price": 2500000,
+    "description": "El LG Velvet ofrece una experiencia visual impresionante con su pantalla P-OLED de 6.8 pulgadas, que brinda colores vibrantes y negros profundos para una visualización inmersiva. Además, su cámara triple de 48MP proporciona una versatilidad excepcional para la fotografía, permitiendo capturar imágenes detalladas y de alta calidad en una variedad de situaciones. Con estas características destacadas, el LG Velvet se destaca como una opción atractiva para aquellos que valoran tanto una excelente calidad de visualización como capacidades fotográficas avanzadas en un smartphone.",
+    "image": "https://i.ibb.co/hVzHCyy/lg-velvet.webp",
+    "rating": 4.2
+  },
+  {
+    "id": 8,
+    "title": "Motorola Edge Plus",
+    "price": 1400000,
+    "description": "El Motorola Edge Plus presenta una impresionante pantalla OLED de 6.7 pulgadas que ofrece colores vibrantes y contrastes profundos para una experiencia visual inmersiva. Además, su potente cámara principal de 108MP permite capturar imágenes llenas de detalles y claridad, brindando una calidad de fotografía excepcional. Con estas características destacadas, el Motorola Edge Plus se posiciona como una opción atractiva para aquellos que buscan un smartphone con una excelente calidad de visualización y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/vVLQpbV/moto-edge-plus.webp",
+    "rating": 4.3
+  },
+  {
+    "id": 9,
+    "title": "Nokia 8.3 5G",
+    "price": 4000000,
+    "description": "El Nokia 8.3 5G presenta una generosa pantalla IPS LCD de 6.81 pulgadas que ofrece una experiencia visual amplia y envolvente. Con una cámara cuádruple de 64MP, este dispositivo es capaz de capturar imágenes con un alto nivel de detalle y claridad en una variedad de condiciones de iluminación. Tanto la pantalla espaciosa como la potente configuración de la cámara hacen del Nokia 8.3 5G una excelente opción para aquellos que buscan un smartphone versátil con capacidades fotográficas avanzadas y una experiencia visual inmersiva.",
+    "image": "https://i.ibb.co/WDcsvtR/nokia-8-3.webp",
+    "rating": 4.1
+  },
+  {
+    "id": 10,
+    "title": "Realme GT",
+    "price": 3800000,
+    "description": "El Realme GT destaca con una pantalla Super AMOLED de 6.43 pulgadas, que ofrece colores vibrantes y negros profundos para una experiencia visual envolvente y de alta calidad. Además, su cámara principal de 64MP garantiza la captura de imágenes detalladas y nítidas en una variedad de situaciones. Con estas características impresionantes, el Realme GT se presenta como una excelente opción para aquellos que buscan un smartphone con una pantalla excepcional y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/x264Ggd/realme-gt.webp",
+    "rating": 4.4
+  },
+  {
+    "id": 11,
+    "title": "Oppo Find X3 Pro",
+    "price": 3800000,
+    "description": "El Oppo Find X3 Pro es un dispositivo impresionante que cuenta con una pantalla AMOLED de 6.7 pulgadas, que ofrece colores vibrantes y contrastes profundos para una experiencia visual envolvente y de alta calidad. Además, su potente configuración de cámara cuádruple de 50MP garantiza la captura de imágenes detalladas y nítidas en una variedad de situaciones. Con estas características destacadas, el Oppo Find X3 Pro se posiciona como una excelente opción para aquellos que buscan un smartphone con una pantalla excepcional y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/wY5Hc0g/Oppo-Find-X3-Pro.webp",
+    "rating": 4.5
+  },
+  {
+    "id": 12,
+    "title": "Vivo X60 Pro",
+    "price": 1800000,
+    "description": "El Vivo X60 Pro ofrece una experiencia visual impresionante con su pantalla AMOLED de 6.56 pulgadas, que brinda colores vibrantes y negros profundos para una visualización inmersiva y de alta calidad. Además, su cámara principal de 48MP permite capturar imágenes detalladas y de alta resolución con una calidad excepcional. Con estas características destacadas, el Vivo X60 Pro se presenta como una excelente opción para aquellos que buscan un smartphone con una pantalla excepcional y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/2qgz9X9/Vivo-X60-Pro.webp",
+    "rating": 4.4
+  },
+  {
+    "id": 13,
+    "title": "Asus ROG Phone 5",
+    "price": 2700000,
+    "description": "El Asus ROG Phone 5 es un dispositivo diseñado específicamente para ofrecer un rendimiento excepcional en juegos, y cuenta con una impresionante pantalla AMOLED de 6.78 pulgadas que proporciona una experiencia visual inmersiva y envolvente. Esta pantalla brinda colores vibrantes y una alta tasa de refresco para una jugabilidad suave y fluida. Además, el ROG Phone 5 está equipado con potentes componentes de hardware y características específicas para juegos, como botones táctiles adicionales, enfriamiento avanzado y software optimizado, lo que lo convierte en una opción ideal para los entusiastas de los juegos de alto rendimiento.",
+    "image": "https://i.ibb.co/hBBk52c/Asus-ROGPhone5.webp",
+    "rating": 4.6
+  },
+  {
+    "id": 14,
+    "title": "Samsung Galaxy Note 20 Ultra",
+    "price": 3000000,
+    "description": "El Samsung Galaxy Note 20 Ultra ofrece una experiencia visual excepcional con su pantalla AMOLED de 6.9 pulgadas, que proporciona colores vibrantes y contrastes profundos para una visualización inmersiva. Además, su cámara principal de 108MP permite capturar imágenes detalladas y llenas de vida en una variedad de condiciones de iluminación. Con estas características destacadas, el Galaxy Note 20 Ultra se posiciona como una excelente opción para aquellos que buscan un smartphone con una pantalla impresionante y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/PC4Knyg/Samsung-Galaxy-Note-20-Ultra.webp",
+    "rating": 4.7
+  },
+  {
+    "id": 15,
+    "title": "Samsung Galaxy A72",
+    "price": 1500000,
+    "description": "El Samsung Galaxy A72 ofrece una experiencia visual impresionante con su pantalla Super AMOLED de 6.7 pulgadas, que brinda colores vibrantes y contrastes profundos para una visualización envolvente y de alta calidad. Además, su versátil configuración de cámara cuádruple de 64MP permite capturar imágenes detalladas y nítidas en una variedad de situaciones, brindando a los usuarios una excelente capacidad fotográfica. Con estas características destacadas, el Galaxy A72 se presenta como una excelente opción para aquellos que buscan un smartphone con una pantalla excepcional y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/xJM7yFS/Samsung-Galaxy-A72.webp",
+    "rating": 4.3
+  },
+  {
+    "id": 16,
+    "title": "iPhone 12 Pro Max",
+    "price": 4500000,
+    "description": "El iPhone 12 Pro Max ofrece una experiencia visual impresionante con su pantalla Super Retina XDR de 6.7 pulgadas, que brinda colores vibrantes y un alto contraste para una visualización envolvente y de alta calidad. Además, su potente cámara de 12MP, complementada con la tecnología LiDAR, permite capturar imágenes con un nivel excepcional de detalle y claridad, así como también mejora las capacidades de realidad aumentada del dispositivo. Con estas características destacadas, el iPhone 12 Pro Max se presenta como una excelente opción para aquellos que buscan un smartphone con una pantalla excepcional y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/D76gYjy/i-Phone-12-Pro-Max.webp",
+    "rating": 4.8
+  },
+  {
+    "id": 17,
+    "title": "Huawei Mate 40 Pro",
+    "price": 1200000,
+    "description": "El Huawei Mate 40 Pro ofrece una experiencia visual impresionante con su pantalla OLED de 6.76 pulgadas, que brinda colores vibrantes y contrastes profundos para una visualización envolvente y de alta calidad. Además, su cámara principal de 50MP permite capturar imágenes detalladas y nítidas con una calidad excepcional. Con estas características destacadas, el Huawei Mate 40 Pro se posiciona como una excelente opción para aquellos que buscan un smartphone con una pantalla excepcional y capacidades fotográficas avanzadas.",
+    "image": "https://i.ibb.co/G0tBFjV/Huawei-Mate-40-Pro.webp",
+    "rating": 4.5
+  }
+]
