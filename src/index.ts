@@ -6,25 +6,48 @@ import "./controllers/ProductController";
 import * as dotenv from "dotenv";
 import swaggerUi from "swagger-ui-express";
 import * as swaggerDocument from "../swagger.json";
+import basicAuth from "express-basic-auth";
 
 dotenv.config();
 
 const startServer = async () => {
   try {
+    const port = process.env.APP_PORT || 3000;
+    const baseUrl = process.env.BASE_URL || `http://localhost:${port}`;
+    const swaggerUsername = process.env.SWAGGER_USERNAME || "admin";
+    const swaggerPassword = process.env.SWAGGER_PASSWORD || "password";
+
     const container = await initializeContainer();
 
     const server = new InversifyExpressServer(container);
 
+    const swaggerDoc = JSON.parse(JSON.stringify(swaggerDocument));
+
+    swaggerDoc.servers = [
+      {
+        url: baseUrl,
+        description: "Dynamic server URL",
+      },
+    ];
+
     server.setConfig((app) => {
       app.use(bodyParser.json());
 
-      app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+      app.use(
+        "/api-docs",
+        basicAuth({
+          users: { [swaggerUsername]: swaggerPassword },
+          challenge: true,
+        })
+      );
+
+      app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDoc));
     });
 
     const app = server.build();
-    app.listen(3000, () => {
-      console.log("Server is running on port 3000");
-      console.log("Swagger docs available at http://localhost:3000/api-docs");
+    app.listen(port, () => {
+      console.log(`Server is running on port ${port}`);
+      console.log(`Swagger docs available at ${baseUrl}/api-docs`);
     });
   } catch (error) {
     console.error("Error starting server:", error);
