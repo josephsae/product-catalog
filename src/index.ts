@@ -7,6 +7,7 @@ import * as dotenv from "dotenv";
 import swaggerUi from "swagger-ui-express";
 import * as swaggerDocument from "../swagger.json";
 import basicAuth from "express-basic-auth";
+import cors from "cors";
 
 dotenv.config();
 
@@ -32,6 +33,12 @@ const startServer = async () => {
 
     server.setConfig((app) => {
       app.use(bodyParser.json());
+
+      app.use(
+        cors({
+          methods: ["GET", "POST", "PUT", "DELETE"],
+        })
+      );
 
       app.use(
         "/api-docs",
