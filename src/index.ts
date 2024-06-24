@@ -3,6 +3,7 @@ import { InversifyExpressServer } from "inversify-express-utils";
 import * as bodyParser from "body-parser";
 import { initializeContainer } from "./middleware/container";
 import "./controllers/ProductController";
+import "./controllers/AuthController";
 import * as dotenv from "dotenv";
 import swaggerUi from "swagger-ui-express";
 import * as swaggerDocument from "../swagger.json";

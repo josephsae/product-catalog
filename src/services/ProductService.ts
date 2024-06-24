@@ -2,8 +2,6 @@ import { injectable } from "inversify";
 import { Product } from "../entities/Product";
 import { ProductRepository } from "../repositories/ProductRepository";
 import { AppDataSource } from "../config/db";
-import * as fs from "fs";
-import * as path from "path";
 
 @injectable()
 export class ProductService {
