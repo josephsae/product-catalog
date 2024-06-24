@@ -19,11 +19,11 @@ export class AuthController {
     logger.info("POST /auth/register");
     const { email, password } = body;
     try {
-      const user = await this.userService.register(
+      const { user, token } = await this.userService.register(
         email as string,
         password as string
       );
-      res.status(201).json(user);
+      res.status(201).json({ user, token });
     } catch (error) {
       logger.error(`POST /auth/register - Error: ${(error as Error).message}`);
       if ((error as Error).message === "User already exists") {

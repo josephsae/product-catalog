@@ -13,7 +13,10 @@ export class UserService {
     this.userRepository = AppDataSource.getRepository(User);
   }
 
-  public async register(email: string, password: string): Promise<User> {
+  public async register(
+    email: string,
+    password: string
+  ): Promise<{ user: User; token: string }> {
     const existingUser = await this.userRepository.findOneBy({ email });
     if (existingUser) {
       throw new Error("User already exists");
@@ -24,8 +27,16 @@ export class UserService {
       email,
       password: hashedPassword,
     });
+
     await this.userRepository.save(user);
-    return user;
+
+    const token = jwt.sign(
+      { id: user.id, email: user.email },
+      process.env.JWT_SECRET!,
+      { expiresIn: "1h" }
+    );
+
+    return { user, token };
   }
 
   public async login(email: string, password: string): Promise<string | null> {
