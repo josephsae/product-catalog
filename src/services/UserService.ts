@@ -2,7 +2,7 @@ import { injectable } from "inversify";
 import { Repository } from "typeorm";
 import { User } from "../entities/User";
 import { AppDataSource } from "../config/db";
-import * as bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import * as jwt from "jsonwebtoken";
 
 @injectable()
