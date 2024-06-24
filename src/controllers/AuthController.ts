@@ -13,6 +13,7 @@ export class AuthController {
   @httpPost("/register", validationMiddleware(RegisterDTO))
   public async register(
     @requestBody() body: RegisterDTO,
+    req: Request,
     res: Response
   ): Promise<void> {
     logger.info("POST /auth/register");
