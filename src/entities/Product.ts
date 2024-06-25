@@ -19,4 +19,13 @@ export class Product {
 
   @Column("decimal")
   rating?: number;
+
+  @Column()
+  color?: string;
+
+  @Column()
+  ram?: string;
+
+  @Column("int")
+  stock?: number;
 }
